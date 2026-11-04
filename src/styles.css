@@ -373,10 +373,11 @@ p {
   padding: clamp(64px, 9vw, 112px) clamp(20px, 4vw, 48px);
 }
 
-.section + .section::before {
+.section + .section::before,
+#about::before {
   content: "";
   display: block;
-  width: min(560px, 80%);
+  width: min(1120px, 80%);
   height: 1px;
   margin: 0 auto clamp(64px, 9vw, 112px);
   background: linear-gradient(90deg, transparent, var(--primary-500) 20%, var(--primary-400) 50%, var(--primary-500) 80%, transparent);
