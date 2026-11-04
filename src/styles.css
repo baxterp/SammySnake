@@ -437,14 +437,6 @@ p {
   transform: translateX(4px);
 }
 
-.highlight-index {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 14px;
-  color: var(--primary-400);
-  letter-spacing: 0.1em;
-}
-
 .highlight h3 {
   margin: 4px 0 8px;
   font-size: 26px;
