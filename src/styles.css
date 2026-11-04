@@ -373,12 +373,15 @@ p {
   padding: clamp(64px, 9vw, 112px) clamp(20px, 4vw, 48px);
 }
 
-.section-alt {
-  max-width: none;
-  padding-inline: max(var(--gutter), calc(50% - var(--container) / 2 + var(--gutter)));
-  background: var(--neutral-900);
-  border-top: 1px solid var(--neutral-700);
-  border-bottom: 1px solid var(--neutral-700);
+.section + .section::before {
+  content: "";
+  display: block;
+  width: min(560px, 80%);
+  height: 1px;
+  margin: 0 auto clamp(64px, 9vw, 112px);
+  background: linear-gradient(90deg, transparent, var(--primary-600) 20%, var(--accent-500) 50%, var(--primary-600) 80%, transparent);
+  opacity: 0.6;
+  border: none;
 }
 
 .section-head {
