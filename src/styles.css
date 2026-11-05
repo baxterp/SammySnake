@@ -361,7 +361,7 @@ p {
 .eyebrow {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 38px;
+  font-size: 30px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--primary-400);
