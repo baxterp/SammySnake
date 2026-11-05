@@ -305,7 +305,7 @@ p {
 
 .hero h1 {
   font-size: clamp(29px, 4.8vw, 58px);
-  margin-top: 66px;
+  margin-top: 46px;
   text-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 
