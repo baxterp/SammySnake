@@ -703,9 +703,10 @@ p {
 .site-footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   gap: 16px;
-  padding: 32px clamp(20px, 4vw, 48px);
+  padding: 16px clamp(20px, 4vw, 48px);
   border-top: 1px solid var(--neutral-700);
   color: var(--neutral-400);
   font-size: 14px;
