@@ -37,7 +37,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 122px;
+  scroll-padding-top: 88px;
 }
 
 body {
@@ -94,30 +94,11 @@ p {
   border: 0;
 }
 
-/* Dev banner */
-
-.dev-banner {
-  position: sticky;
-  top: 0;
-  z-index: 60;
-  display: block;
-  text-align: center;
-  padding: 8px clamp(20px, 4vw, 48px);
-  background: #e10600;
-  color: #fff;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 13px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  border-bottom: 1px solid #b00500;
-}
-
 /* Header */
 
 .site-header {
   position: sticky;
-  top: 34px;
+  top: 0;
   z-index: 50;
   display: flex;
   align-items: center;
@@ -295,11 +276,9 @@ p {
 
 .hero-banner {
   position: relative;
-  height: clamp(180px, 26vw, 300px);
+  height: clamp(160px, 22vw, 240px);
   overflow: hidden;
-  border-radius: var(--radius-lg);
-  margin-top: 32px;
-  border: 1px solid var(--neutral-700);
+  border-bottom: 1px solid var(--neutral-700);
 }
 
 .hero-banner img {
@@ -314,20 +293,19 @@ p {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(7, 10, 8, 0) 50%, var(--neutral-950) 100%);
-  pointer-events: none;
+  background: linear-gradient(180deg, rgba(7, 10, 8, 0) 40%, var(--neutral-950) 100%);
 }
 
 .hero-content {
   position: relative;
   max-width: var(--container);
-  margin: 0 auto;
-  padding: 60px clamp(20px, 4vw, 48px) 80px;
+  margin: -72px auto 0;
+  padding: 0 clamp(20px, 4vw, 48px) 80px;
 }
 
 .hero h1 {
   font-size: clamp(29px, 4.8vw, 58px);
-  margin-top: 16px;
+  margin-top: 46px;
   text-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 
@@ -838,7 +816,7 @@ p {
   }
 
   .hero-content {
-    margin-top: 0;
+    margin-top: -56px;
   }
 }
 
