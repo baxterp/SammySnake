@@ -37,7 +37,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 88px;
+  scroll-padding-top: 122px;
 }
 
 body {
@@ -94,11 +94,30 @@ p {
   border: 0;
 }
 
+/* Dev banner */
+
+.dev-banner {
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  display: block;
+  text-align: center;
+  padding: 8px clamp(20px, 4vw, 48px);
+  background: #e10600;
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #b00500;
+}
+
 /* Header */
 
 .site-header {
   position: sticky;
-  top: 0;
+  top: 34px;
   z-index: 50;
   display: flex;
   align-items: center;
