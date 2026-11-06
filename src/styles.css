@@ -353,6 +353,8 @@ p {
 
 .stats li {
   width: 180px;
+  height: 94px;
+  box-sizing: border-box;
   padding: 10px 12px;
   border-left: 3px solid var(--primary-500);
   background: rgba(19, 27, 22, 0.7);
