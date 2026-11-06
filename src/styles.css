@@ -371,7 +371,7 @@ p {
 }
 
 .stats span {
-  font-size: 13px;
+  font-size: 11px;
   color: var(--neutral-400);
   text-transform: uppercase;
   letter-spacing: 0.08em;
